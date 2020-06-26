@@ -40,11 +40,6 @@
         type: Number,
         default: 10
       },
-      // small: {
-      //   required: false,
-      //   type: Boolean,
-      //   default: false
-      // }
     },
     watch: {
       currentPage(val) {
@@ -56,7 +51,7 @@
       },
     },
     methods: {
-      // 当前页变化
+      // 翻页
       handleCurrentChange(val) {
         console.log('ininin handleCurrentChange: ' + val)
         this.$emit('handleCurrentChange', val);
@@ -67,11 +62,6 @@
         console.log('ininin  handleSizeChange: ' + val)
         this.$emit('handleSizeChange', val);
       }
-      // ,
-      // handleTotleChange(val) {
-      //   this.$emit('handleTotleChange', val);
-      //   // this.total = val;
-      // }
     }
   }
 </script>
