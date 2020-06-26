@@ -1,0 +1,84 @@
+{
+    "vuet": {
+        "prefix": "vuet",
+        "body": [
+            "<template>",
+            "    <div>",
+            "",
+            "    </div>",
+            "</template>",
+            "<script>",
+            "  export default {",
+            "    data() {",
+            "      return {",
+            "",
+            "      }",
+            "    },",
+            "    methods: {",
+            "",
+            "    }",
+            "  }",
+            "</script>",
+            "<style lang=\"less\">",
+            "",
+            "</style>"
+        ],
+        "description": "vuet components"
+    },
+    "vuejs": {
+        "prefix": "vuejs",
+        "body": [
+            "import Vue from 'vue'",
+            "export default Vue.extend({",
+            "  data() {",
+            "    return {",
+            "",
+            "    }",
+            "  },",
+            "  methods: {",
+            "",
+            "  }",
+            "})"
+        ],
+        "description": "vuejs components"
+    },
+
+    "fn": {
+        "prefix": "fn",
+        "body": [
+            "functionName() {",
+            "",
+            "}"
+        ],
+        "description": "fn components"
+    },
+    "tno": {
+        "prefix": "tno",
+        "body": [
+            "this.notify(0, '添加成功')"
+        ],
+        "description": "fn components"
+    },
+
+    "tco": {
+        "prefix": "tco",
+        "body": [
+            "this.$$confirm('此操作将永久删除该文件, 是否继续?', '提示', {",
+            "confirmButtonText: '确定',",
+            "cancelButtonText: '取消',",
+            "type: 'warning'",
+            "}).then(() => {",
+
+            "type: 'success',",
+            "message: '删除成功!'",
+            "});",
+            "}).catch(() => {",
+            "this.$message({",
+            "type: 'info',",
+            "message: '已取消删除'",
+            "});",
+            "});"
+        ],
+        "description": "tco components"
+    }
+}

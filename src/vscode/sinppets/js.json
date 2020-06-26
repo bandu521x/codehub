@@ -1,0 +1,205 @@
+{
+    "newpro": {
+        "prefix": "newpro",
+        "body": [
+            "new Promise((resolve, reject) => {",
+            "  resolve();",
+            "  ",
+            "  reject();",
+            "})"
+        ],
+        "description": "newpro components"
+    },
+
+    "cdjs": {
+        "prefix": "cdjs",
+        "body": [
+            "console.log('main: ' + JSON.stringify(moment))"
+        ],
+        "description": "cdjs components"
+    },
+
+    "ffn": {
+        "prefix": "ffn",
+        "body": [
+            "function functionName() {",
+            "",
+            "}"
+        ],
+        "description": "ffn components"
+    },
+
+    "e6f": {
+        "prefix": "e6f",
+        "body": [
+            "const main = () => {",
+            "",
+            "}"
+        ],
+        "description": "e6f components"
+    },
+
+    "ee6f": {
+        "prefix": "ee6f",
+        "body": [
+            "export const main = () => {",
+            "",
+            "}"
+        ],
+        "description": "e6f components"
+    },
+
+    "ipf": {
+        "prefix": "ipf",
+        "body": [
+            "import { ****** }from '******'"
+        ],
+        "description": "ipf components"
+    },
+
+    "c=": {
+        "prefix": "c=",
+        "body": [
+            "const plugin = require()"
+        ],
+        "description": "c= components"
+    },
+
+    "swi": {
+        "prefix": "swi",
+        "body": [
+            "switch(iii) {",
+            "  case nn:",
+            "",
+            "    break;",
+            "  case mmm:",
+            "",
+            "    break;",
+            "  default:",
+            "",
+            "}"
+        ],
+        "description": "swi components"
+    },
+
+    "et": {
+        "prefix": "et",
+        "body": [
+            "export type Type = {",
+            "",
+            "}"
+        ],
+        "description": "et"
+    },
+
+
+    "iff": {
+        "prefix": "iff",
+        "body": [
+            "if (mmm) {",
+            "",
+            "}"
+        ],
+        "description": "iff components"
+    },
+
+
+    "ife": {
+        "prefix": "ife",
+        "body": [
+            "if (mmm) {",
+            "",
+            "} else {",
+            "",
+            "}"
+        ],
+        "description": "iff components"
+    },
+
+    "ifef": {
+        "prefix": "ifef",
+        "body": [
+            "if (mmm) {",
+            "",
+            "} else if (nnn) {",
+            "",
+            "}"
+        ],
+        "description": "iff components"
+    },
+
+
+    "tsmap": {
+        "prefix": "tsmap",
+        "body": [
+            "const name: {[index: string]: number} = {",
+            "  正常: 0",
+            "}"
+        ],
+        "description": "tsmap"
+    },
+
+    "ed": {
+        "prefix": "ed",
+        "body": [
+            "export default {",
+            "  ",
+            "}"
+        ],
+        "description": "tsmap"
+    },
+    "proth": {
+        "prefix": "proth",
+        "body": [
+            ".then(res => {",
+            "  ",
+            "})"
+        ],
+        "description": "proth"
+    },
+    "proerr": {
+        "prefix": "proerr",
+        "body": [
+            ".catch(err => {",
+            "  ",
+            "})"
+        ],
+        "description": "proerr"
+    },
+    "coder": {
+        "prefix": "coder",
+        "body": [
+            "/**",
+            " * coder: bandu",
+            " * createTime: 2020-05-13",
+            " * decribe: ××××××××××××",
+            " */"
+        ],
+        "description": "coder"
+    },
+
+    "ilod": {
+        "prefix": "ilod",
+        "body": [
+            "import _ from 'lodash' ;"
+        ],
+        "description": "ilod"
+    },
+
+    "imom": {
+        "prefix": "imom",
+        "body": [
+            "import moment from 'moment' ;"
+        ],
+        "description": "imom"
+    },
+    ".amap": {
+        "prefix": ".amap",
+        "body": [
+            ".map(item => {",
+            "",
+            "})"
+        ],
+        "description": "amap"
+    }
+}
