@@ -146,22 +146,8 @@
         <div slot="tip" class="el-upload__tip">只能上传xlsx文件，且不超过500kb</div>
       </el-upload>
 
-
-
       <el-button v-if="item.type==='button'" @click="item.click" :type="btype" :size="item.size">{{item.title}}</el-button>
 
-      <!-- 表格 -->
-      <el-table v-if="item.type==='table'" index :data="data.table" style="width: 100%">
-        <el-table-column type="index" label="#" align="center" width="50"></el-table-column>
-        <el-table-column
-          v-for="col in item.cols"
-          :width="col.width"
-          :key="col.prop"
-          :prop="col.prop"
-          :label="col.label"
-          :formatter="col.formatter"
-        ></el-table-column>
-      </el-table>
     </el-form-item>
   </el-form>
 </template>
